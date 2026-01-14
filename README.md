@@ -99,10 +99,10 @@ python convert.py -t jmere
 
 The converted dataset will be saved to:
 
-data/o-<datasetname>/
- ├─ merged_train_data.json
- ├─ merged_dev_data.json
- └─ merged_test_data.json
+data/o-<datasetname>/  \\
+ ├─ merged_train_data.json \\
+ ├─ merged_dev_data.json \\
+ └─ merged_test_data.json \\
 ------------------------------------------------------------------
 Citation
 ------------------------------------------------------------------
