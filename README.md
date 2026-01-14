@@ -66,6 +66,44 @@ print(data[0]["words"])
 print(data[0]["entity_pair_list"])
 
 ------------------------------------------------------------------
+Automatic Construction of O-MRE Dataset
+------------------------------------------------------------------
+This repository provides a conversion script (convert.py) to automatically construct the O-MRE dataset from the original MNRE and JMERE datasets.
+
+Please first download the original datasets and organize them as follows:
+
+data/
+ ├─ mnre/
+ │   ├─ txt/
+ │   ├─ img_detect/
+ │   ├─ img_org/
+ │   ├─ img_vg/
+ │   └─ ours_rel2id.json
+ └─ jmere/
+     ├─ txt/
+     ├─ img_detect/
+     ├─ img_org/
+     ├─ img_vg/
+     └─ ours_rel2id.json
+
+ All image files must be obtained from the official MNRE and JMERE repositories:
+	•	MNRE: https://github.com/thecharm/MNRE
+	•	JMERE: https://github.com/jmre-team/JMERE
+
+To construct the overlapping dataset, simply run:
+
+```cmd
+python convert.py -t mnre
+python convert.py -t jmere
+```
+
+The converted dataset will be saved to:
+
+data/o-<datasetname>/
+ ├─ merged_train_data.json
+ ├─ merged_dev_data.json
+ └─ merged_test_data.json
+------------------------------------------------------------------
 Citation
 ------------------------------------------------------------------
 If you use this dataset, please cite:
