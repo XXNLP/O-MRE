@@ -114,8 +114,8 @@ Citation
 If you use this dataset, please cite:
 
 @article{wang2025mhin,
-  title={MHIN: A Hierarchical Interaction Network for Overlapping Multimodal Relation Extraction},
+  title={HIN: A Unified Framework for Knowledge-Dense Overlapping Multimodal Relation Extraction},
   author={Wang, Hailin and Ren, Hangyi and Zhang, Dan and Ma, Ao and Du, Zhekai and Liu, Guisong and Qin, Ke},
   journal={***********},
-  year={2025}
+  year={2026}
 }
