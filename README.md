@@ -3,7 +3,7 @@ O-MRE  Data
 Overlapping Multimodal Relation Extraction (O-MRE) Test Dataset(O-MNRE, JMERE)
 
 This repository provides the data used in the paper:
-"MHIN: A Hierarchical Interaction Network for Overlapping Multimodal Relation Extraction" (*****, 2025)
+"HIN: A Unified Framework for Knowledge-Dense Overlapping Multimodal Relation Extraction" (*****, 2026)
 
 The dataset is designed to evaluate Overlapping Multimodal Relation Extraction (O-MRE) models that integrate textual and visual information. 
 Each instance contains a sentence with annotated entities and relations, as well as corresponding image references from the original multimodal datasets.
