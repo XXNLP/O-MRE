@@ -109,3 +109,8 @@ bash run_****_overlap_matrix.sh
   year={2026}
 }
 ```
+
+------------------------------------------------------------------
+7. Note
+------------------------------------------------------------------
+There are still some imperfections in the code. We will continue to update it later
