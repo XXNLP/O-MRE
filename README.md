@@ -113,4 +113,4 @@ bash run_****_overlap_matrix.sh
 ------------------------------------------------------------------
 7. Note
 ------------------------------------------------------------------
-There are still some imperfections in the code. We will continue to update it later
+Please be aware that this repository is still under maintenance. We will release a more polished and formal version as soon as possible.
